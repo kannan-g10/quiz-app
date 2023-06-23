@@ -1,0 +1,42 @@
+.App {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.Menu, .Quiz, .EndScreen {
+  background-color: #20b2aa;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  display: flex;
+}
+
+.Menu button, .Quiz button, .EndScreen button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.Menu, .Quiz {
+  color: #fff;
+}
+
+.options {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
